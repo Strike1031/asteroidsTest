@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+###       This project is a project for the test!!!
+         (Asteroids analyze with a specified period)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+###       Made by Strike Dev  (Skype id: live:.cid.cf6dab60f7b6fb8)
 
-## Available Scripts
 
-In the project directory, you can run:
+###       Long Description
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Create a React application that uses the data from this API https://api.nasa.gov/ (Asteroids NeoWs), so that it will show the asteroids that are closest to the Earth.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The application must have a page where users can type in a specific period and the page will display the asteroids closest to the Earth for the specified period - in both tabular and graphic view. 
 
-### `npm test`
+●	The graph must show the maximum diameter, speed and distance to Earth for each asteroid. We would suggest you use a bubble chart and visualise the asteroids’ speed and size on the axes, and reflect the diameter in the bubble’s size. 
+●	The table must show id, name, maximum and minimum diameter for each asteroid. Upon click, each row should open a page that displays the dates on which the given asteroid was or will be closest to the Earth as well as the actual distance.
+What we expect to receive
+A link to a git repo with your work on the exercise and instructions how to run it. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+What is important for us
+●	The application must look good on both mobile and desktop.
+●	We must be able to get and share a link to each asteroid we like. 
+●	A well-built tree of components.  
+Notes
+●	At https://api.nasa.gov/ you could find documentation for a few different APIs. “Asteroids - NeoWs” is the one that you should be looking for. 
+●	In the API documentation page you could generate an API key that supports 1000 queries per hour.  
+●	You could use whichever components library you decide or none at all. We usually fancy Bootstrap and Material UI. 
+●	You are free to pick a chart library of your own choice. 
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
